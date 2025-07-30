@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9fb;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, #1e2a38, #2d3e50);
+  color: white;
+  padding: 2rem;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: #fff;
+  color: #1e2a38;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.nav-buttons .signup {
+  background: #ff9800;
+  color: white;
+}
+
+.hero-text {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.notification {
+  background: #ffe082;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 1rem;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.courses {
+  padding: 2rem;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.course-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.progress-bar {
+  background: #ddd;
+  border-radius: 10px;
+  height: 10px;
+  margin: 10px 0;
+}
+
+.progress-fill {
+  background: #4caf50;
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}
+
+.testimonials {
+  background: #f0f4f8;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonial-box p {
+  background: white;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 500px;
+  border-left: 4px solid #2196f3;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background-color: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
